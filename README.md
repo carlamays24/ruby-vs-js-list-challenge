@@ -36,7 +36,28 @@ cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 Complete these exercises in both Ruby and JavaScript:
 
 -   [True for Any?](http://www.codewars.com/kata/enumerable-magic-number-2-true-for-any)
+
+
+function any(arr, fun){
+  return arr.some(fun)
+}
+
+<!-- const any = (arr, fun) => arr.some(fun); -->
+
+def any? list, &block
+  list.any?(&block)
+end
+
+
 -   [True for None?](http://www.codewars.com/kata/enumerable-magic-number-4-true-for-none)
+
+function none(arr, fun){
+  return !arr.some(fun);
+}
+
+def none? list, &block
+  list.none?(&block)
+end
 
 ## Bonus
 
